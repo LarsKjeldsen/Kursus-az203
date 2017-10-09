@@ -1,0 +1,16 @@
+{
+  "name": "ms20532",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m '.' && git push origin master "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.itacademy.dk/cloud/ms20532.git"
+  },
+  "keywords": [],
+  "author": "Jalal.Hejazi <Jalal.Hejazi@gmail.com>",
+  "license": "ISC"
+}
