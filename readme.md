@@ -12,4 +12,17 @@ public IP:  13.74.177.10
 userName :  jalal
 pwd:        AzurePa55w****
 
-     
+
+
+Terminal using azure-c@2:
+
+```
+az login 
+
+az interactive
+
+account set  --subscription "Visual Studio Ultimate med MSDN"
+
+az vm list
+
+```
