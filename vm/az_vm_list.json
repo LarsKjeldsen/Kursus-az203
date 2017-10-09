@@ -1,0 +1,79 @@
+[
+  {
+    "availabilitySet": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": "https://defaultwebnortheurope583.blob.core.windows.net/"
+      }
+    },
+    "hardwareProfile": {
+      "vmSize": "Standard_D2s_v3"
+    },
+    "id": "/subscriptions/6ef2cbd4-1b87-4409-ab0e-403ffe9024b3/resourceGroups/DEFAULT-WEB-NORTHEUROPE/providers/Microsoft.Compute/virtualMachines/Dev20532",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "northeurope",
+    "name": "Dev20532",
+    "networkProfile": {
+      "networkInterfaces": [
+        {
+          "id": "/subscriptions/6ef2cbd4-1b87-4409-ab0e-403ffe9024b3/resourceGroups/Default-Web-NorthEurope/providers/Microsoft.Network/networkInterfaces/dev2053211",
+          "primary": null,
+          "resourceGroup": "Default-Web-NorthEurope"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "jalal",
+      "computerName": "Dev20532",
+      "customData": null,
+      "linuxConfiguration": null,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "DEFAULT-WEB-NORTHEUROPE",
+    "resources": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "imageReference": {
+        "id": null,
+        "offer": "WindowsServer",
+        "publisher": "MicrosoftWindowsServer",
+        "sku": "2016-Datacenter-smalldisk",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "fromImage",
+        "diskSizeGb": 31,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "id": "/subscriptions/6ef2cbd4-1b87-4409-ab0e-403ffe9024b3/resourceGroups/Default-Web-NorthEurope/providers/Microsoft.Compute/disks/Dev20532_OsDisk_1_2a42406d295847aa81a2d9288ac59241",
+          "resourceGroup": "Default-Web-NorthEurope",
+          "storageAccountType": "Premium_LRS"
+        },
+        "name": "Dev20532_OsDisk_1_2a42406d295847aa81a2d9288ac59241",
+        "osType": "Windows",
+        "vhd": null
+      }
+    },
+    "tags": {
+      "ms-resource-usage": "azure-cloud-shell"
+    },
+    "type": "Microsoft.Compute/virtualMachines",
+    "vmId": "1029b322-d763-4375-9567-70dedf13002a",
+    "zones": null
+  }
+]
