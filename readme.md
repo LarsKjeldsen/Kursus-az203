@@ -8,3 +8,8 @@ https://www.superusers.dk/kursus/ms0532/
 
 * Lab: Creating an Azure Virtual Machine
 
+public IP:  13.74.177.10
+userName :  jalal
+pwd:        AzurePa55w****
+
+     
