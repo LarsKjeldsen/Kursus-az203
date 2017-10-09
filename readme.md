@@ -3,10 +3,7 @@
 https://www.superusers.dk/kursus/ms0532/
 
 
-
-## Module 02: 
-
-* Lab: Creating an Azure Virtual Machine
+## Creating an Azure Virtual Machine
 
 public IP:  13.74.177.10
 userName :  jalal
@@ -14,7 +11,10 @@ pwd:        AzurePa55w****
 
 
 
-Terminal using azure-c@2:
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
+
+
+Terminal using azure-cli-latest: 
 
 ```
 az login 
@@ -26,3 +26,5 @@ account set  --subscription "Visual Studio Ultimate med MSDN"
 az vm list
 
 ```
+
+
