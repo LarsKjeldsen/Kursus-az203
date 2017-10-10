@@ -1,0 +1,24 @@
+###  windows install packages with scoop 
+
+```
+Invoke-Expression (new-object net.webclient).downloadstring('https://get.scoop.sh')
+set-executionpolicy unrestricted -s cu
+
+```
+
+### console theme
+
+```
+scoop install concfg pshazz
+concfg import solarized small
+```
+
+### Dev-tools
+
+```
+scoop bucket add extras
+scoop install sublime-text 
+scoop install git sudo nodejs gow 
+
+```
+
