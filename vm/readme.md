@@ -1,6 +1,7 @@
 
 ## Azure Virtual Machine login information 
 
+public IP:	52.138.147.211
 public IP:  13.74.177.10
 userName :  jalal
 pwd:        AzurePa55w****
@@ -14,7 +15,7 @@ From the portal try connect to generate Dev20532.rdp
 ## Powershell connect using winRM 
 
 ```
-$PC = 13.74.177.10
+$PC = 52.138.147.211
 $login = new-pssession -ComputerName $PC -Credential jalal
 enter-pssession -pssession $login 
 
