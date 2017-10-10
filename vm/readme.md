@@ -1,5 +1,5 @@
 
-## Creating an Azure Virtual Machine
+## Azure Virtual Machine login information 
 
 public IP:  13.74.177.10
 userName :  jalal
@@ -9,6 +9,7 @@ pwd:        AzurePa55w****
 ## connect using RDP 
 
 From the portal try connect to generate Dev20532.rdp
+
 
 ## Powershell connect using winRM 
 
@@ -21,6 +22,7 @@ enter-pssession -pssession $login
 ```
 
 
+## help about_Remote_Troubleshooting
 
 ```
 WinRm TODO:  
