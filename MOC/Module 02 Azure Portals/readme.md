@@ -70,3 +70,5 @@ Først klargøre VM:
 ```
 
 
+## Backup and Site Recovery 
+
