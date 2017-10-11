@@ -165,14 +165,6 @@ $Group   = $PC2 , $PC3
 
 
 
-
-
-
-
-
-
-
-
 # find the path where powershell lives
 function pshome { cd $env:USERPROFILE\Documents\WindowsPowerShell  ;  }
 
