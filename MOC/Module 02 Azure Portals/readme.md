@@ -61,19 +61,7 @@ Først klargøre VM:
 
 2) C:\Windows\System32\Sysprep\sysprep.exe 
 
-```
-
-
-```
-Login-AzureRMAccount 
-
-Get-AzureRMStorageAccountKey -ResourceGroupName demos -name ncgdemos
-
-$context = New-AzureStorageContext -StorageAccountName ncgdemos -StorageAccountKey "secret****"
-$vhdUrl  = "https://ncgdemos.blob.core.windows.net/vhds/win10os.vhd"
-$file    = "C:\Images\Win10os.vhd"
-
-Add-AzureRMVhd -ResourceGroupName "demos" -Destination $vhdUrl -LocalFilePath $file 
+3) enten bruges Powershell (complex) eller azure-cli (simple)
 
 
 ```
