@@ -1,28 +1,9 @@
 # MS20532 Developing Microsoft Azure Solutions
 
-https://www.superusers.dk/kursus/ms0532/
 
+## github source for MOC 20532
 
-##  Setup DevEnv....
-
-```
- 192.168.2.103 login (admin, password)
-
-* powershell 
-
-* scoop 
-
-* git | githosting (gitlab | github)
-
-* nodejs
-
-* sublime-tekst
-
-* dotnet.core
-
-* azure-cli 
-
-```
+* https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions
 
 
 ## awesome resources

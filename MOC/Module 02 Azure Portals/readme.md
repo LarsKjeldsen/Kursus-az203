@@ -80,7 +80,7 @@ Best practice at tag backup på et andet kontinent (region), således "hvis" der
 Det er ikke nok at tage backup. Test af Restore er også must have.
 
 
-## Elastic Scale cloud 
+## Elastic Scaling cloud 
 
 ```
     Horizontal Scaling (can be auto-scaled Horizontally)
@@ -102,6 +102,21 @@ Det er ikke nok at tage backup. Test af Restore er også must have.
 
 ```
 
+
+
+
+
+## Automation using configuration
+
+code over configuration vs. configuration over code
+
+Det er op til den enkelste at vælge mellem de 2 tankegange. 
+
+Azure teamet bruger "configuration over code" 
+
+* Powershell Desired State Configuration (DSC) 
+
+* https://github.com/Azure/azure-quickstart-templates/tree/master/mongodb-nodejs-high-availability
 
 
 
