@@ -1,0 +1,73 @@
+Module 3: Configure Web Apps
+
+Microsoft Exam 70-532 Page
+https://www.microsoft.com/en-us/learning/exam-70-532.aspx
+
+Microsoft Learning
+https://www.microsoft.com/en-us/learning/default.aspx
+https://borntolearn.mslearn.net/?Redirected=true
+
+Microsoft Azure Documentation
+https://azure.microsoft.com/en-us/documentation/
+https://msdn.microsoft.com/en-us/library/azure/dn578280.aspx
+
+Visual Studio 2015 Community Edition
+https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx
+
+Azure SDKs and Tools
+https://azure.microsoft.com/en-us/downloads/
+
+Pluralsight: Implementing Web Apps for Azure Infrastructure (70-533)
+https://www.pluralsight.com/courses/implementing-websites-azure-infrastructure-70-533
+
+Pluralsight: IIS Administration Fundamentals
+https://www.pluralsight.com/courses/iis-administration-fundamentals
+
+Book: Microsoft Azure - Planning, Deploying, and Managing Your Data Center in the Cloud (Apress)
+https://www.apress.com/9781484210444
+
+FileZilla FTP client and server
+https://filezilla-project.org/
+
+Kudu Site Control Manager
+https://github.com/projectkudu/kudu/wiki/Kudu-console
+
+How Azure App Settings and Connection Strings Work
+https://azure.microsoft.com/en-us/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/
+
+Adding Source Control to an Azure Web Site
+https://docs.asp.net/en/latest/publishing/azure-continuous-deployment.html
+
+Set-AzureWebsite
+https://msdn.microsoft.com/en-us/library/dn495207.aspx?f=255&MSPPError=-2147217396
+
+Set-AzureRmResource
+https://msdn.microsoft.com/en-us/library/mt652514.aspx
+
+C# Razor Markup Tutorial
+https://www.asp.net/web-pages/overview/getting-started/introducing-razor-syntax-c
+
+Open from Azure Websites Visual Studio Extension
+https://visualstudiogallery.msdn.microsoft.com/60d414b1-4ead-4fde-9359-588aa126cd6c
+
+PowerShell Extension for Visual Studio
+https://visualstudiogallery.msdn.microsoft.com/c9eb3ba8-0c59-4944-9a62-6eee37294597
+
+Map a Custom Domain Name in Azure App Service
+https://azure.microsoft.com/en-us/documentation/articles/web-sites-custom-domain-name/
+
+Implement SSL for Your Azure Web App
+https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure-ssl-certificate/
+
+Verify DNS Propagation
+http://digwebinterface.com
+
+Azure Domains and GoDaddy
+https://azure.microsoft.com/en-us/documentation/articles/web-sites-godaddy-custom-domain-name/
+
+Creating Self-Signed Certificates
+https://www.jayway.com/2014/09/03/creating-self-signed-certificates-with-makecert-exe-for-development/
+https://technet.microsoft.com/en-us/library/hh848633.aspx?f=255&MSPPError=-2147217396
+
+IP-Based vs. SNI SSL
+http://blog.everleap.com/sni-vs-unique-ip-based-ssl/

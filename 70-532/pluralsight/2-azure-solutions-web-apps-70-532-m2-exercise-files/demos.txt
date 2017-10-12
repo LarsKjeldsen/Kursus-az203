@@ -1,0 +1,56 @@
+Module 2: Manage App Service Plans
+
+Microsoft Exam 70-532 Page
+https://www.microsoft.com/en-us/learning/exam-70-532.aspx
+
+Microsoft Learning
+https://www.microsoft.com/en-us/learning/default.aspx
+https://borntolearn.mslearn.net/?Redirected=true
+
+Microsoft Azure Documentation
+https://azure.microsoft.com/en-us/documentation/
+https://msdn.microsoft.com/en-us/library/azure/dn578280.aspx
+
+Visual Studio 2015 Community Edition
+https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx
+
+Azure SDKs and Tools
+https://azure.microsoft.com/en-us/downloads/
+
+Pluralsight: Architecting Microsoft Azure Solutions (70-534) - Design Web Apps
+https://www.pluralsight.com/courses/architecting-azure-solutions-70-534-web-apps
+
+Pluralsight: Understanding the Difference Between Microsoft Azure and Amazon AWS
+https://www.pluralsight.com/courses/understanding-microsoft-azure-amazon-aws
+
+Book: Azure Web Apps for Developers (Rainey, Microsoft Press) 
+https://blogs.msdn.microsoft.com/microsoft_press/2015/06/09/free-ebook-microsoft-azure-essentials-azure-web-apps-for-developers/
+
+Azure App Service Plans
+https://azure.microsoft.com/en-us/pricing/details/app-service/plans/
+https://azure.microsoft.com/en-us/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/
+
+Service Plans - Pricing Details
+https://azure.microsoft.com/en-us/pricing/details/app-service/
+
+Azure Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+New-AzureRmAppServicePlan
+https://msdn.microsoft.com/en-us/library/mt619306.aspx?f=255&MSPPError=-2147217396
+
+Get-AzureWebHostingPlan
+https://msdn.microsoft.com/en-us/library/dn832944.aspx
+
+New-AzureRmResourceGroupDeployment
+https://msdn.microsoft.com/en-us/library/mt603823.aspx
+
+ARM Taxonomic Tags
+https://azure.microsoft.com/en-us/documentation/articles/resource-group-using-tags/
+
+Azure Quickstart Templates
+https://azure.microsoft.com/en-us/documentation/templates/
+https://github.com/Azure/azure-quickstart-templates
+
+Rick Rainey
+http://rickrainey.com/
