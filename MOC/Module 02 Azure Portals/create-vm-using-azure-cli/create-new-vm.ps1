@@ -8,7 +8,7 @@ $AdminPassword="AzurePa55w.rd"
 $UserName     ="Jalal" 
 
 # Create a resource group.
-# az group create --name Default-Web-NorthEurope --location NorthEurope
+az group create --name Default-Web-NorthEurope --location northeurope
 
 # Create a virtual machine. 
 az vm create \
