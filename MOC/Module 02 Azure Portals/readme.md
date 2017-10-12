@@ -72,3 +72,19 @@ Først klargøre VM:
 
 ## Backup and Site Recovery 
 
+Skjult omkostninger ved backup/restore
+* Backup VM (Være opmærksom på prisen af IO-Operations)
+
+Best practice at tag backup på et andet kontinent (region), således "hvis" der opstår naturlige katastrofer på det ene region og hele datacenter går ned. Så er ens backup kan restore tilbage eller aktiv tilgængelig via fail-over/Availability-set. 
+
+Det er ikke nok at tage backup. Test af Restore er også must have.
+
+
+
+
+
+
+
+
+
+
