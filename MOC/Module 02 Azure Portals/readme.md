@@ -70,15 +70,37 @@ Først klargøre VM:
 ```
 
 
-## Backup and Site Recovery 
+## Backup/Recovery/Availability-Sets  
 
 Skjult omkostninger ved backup/restore
 * Backup VM (Være opmærksom på prisen af IO-Operations)
 
-Best practice at tag backup på et andet kontinent (region), således "hvis" der opstår naturlige katastrofer på det ene region og hele datacenter går ned. Så er ens backup kan restore tilbage eller aktiv tilgængelig via fail-over/Availability-set. 
+Best practice at tag backup på et andet kontinent (region), således "hvis" der opstår naturlige katastrofer på det ene region og hele datacenter går ned. Så er ens backup kan restore tilbage eller aktiv tilgængelig via fail-over/Availability-sets. Dette er automatisk er klaret via den betalingsplan man indgår i Azure subscription. Alle VM i Azure har SLA (Service Level Aggrement) på min. 99.95% som naturligvis kræver 2 AvaliabilitySets.
 
 Det er ikke nok at tage backup. Test af Restore er også must have.
 
+
+## Elastic Scale cloud 
+
+```
+    Horizontal Scaling (can be auto-scaled Horizontally)
+    Scale more +++ ( When neede )
+    * ... * ... * ... * ... 
+    Scale less --- ( When done )
+
+    ============================
+    i nodejs/npm>  pm2 scale n
+    ============================
+
+    Vertical Scaling (Buy more or less)
+    changin cost-plan (Free, Basic, standard, premimum)
+    The VM have to reboot, the clients must wait.
+        * ...
+        * ...
+        * ...
+
+
+```
 
 
 
