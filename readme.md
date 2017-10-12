@@ -6,9 +6,5 @@
 * https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions
 
 
-## awesome resources
 
-* https://github.com/kristofferandreasen/awesome-azure
-
-* https://github.com/bensadeghi/Awesome-Azure-Advanced-Analytics
 
