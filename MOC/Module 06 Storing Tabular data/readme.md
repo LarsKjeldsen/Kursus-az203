@@ -43,3 +43,14 @@ NoSQL examples from my web projects:
 * https://fullstack-ng4.itacademy.dk/ (CRUD)
 * https://couchdb.itacademy.dk/ (Admin)
 
+
+## OData Queries
+
+```
+Do not use Odata if you care about performance. Use ScreenData instead. 
+
+```
+
+Open Data standard (REST Level 3 = HATEOS)
+
+mapping between Database CRUD <-> HTTP CRUD 
