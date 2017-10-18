@@ -62,5 +62,10 @@ Tools available :
 
 
 
-* Redis Cache
+* Redis Cache (Open source Key:value store)
+	* origin from https://redis.io/
+	* https://stackexchange.github.io/StackExchange.Redis/Basics
+	* from nodejs npmjs.org search for redis
+
+
 
