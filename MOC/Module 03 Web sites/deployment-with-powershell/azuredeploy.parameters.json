@@ -1,0 +1,12 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "siteName": {
+      "value": "ms20532-lab03-version-x"
+    },
+    "hostingPlanName": {
+      "value": "ARMServicePlan"
+    }
+  }
+}

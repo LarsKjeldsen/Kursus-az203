@@ -1,0 +1,12 @@
+{
+  "name": "deployment-with-powershell",
+  "version": "1.0.0",
+  "description": "git deployment ",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "powershell ./deploy.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
