@@ -9,3 +9,7 @@
 
 * https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions
 
+
+## MCT 
+
+* https://borntolearn.mslearn.net/mct/m/mediagallery/372461/download
