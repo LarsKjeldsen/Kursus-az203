@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "greetingcreationrequests",
+      "connection": "ServiceBus",
+      "accessRights": "Manage"
+    }
+  ],
+  "disabled": false
+}
