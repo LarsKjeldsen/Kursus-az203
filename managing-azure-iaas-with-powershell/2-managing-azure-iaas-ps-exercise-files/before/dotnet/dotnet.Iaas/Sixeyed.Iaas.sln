@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6988F855-FC55-4BA4-81F5-32264937533F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92EE73C4-252D-4913-A84F-94DCC0D05FE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixeyed.Iaas.WebApp", "src\Sixeyed.Iaas.WebApp\Sixeyed.Iaas.WebApp.csproj", "{05AA7014-0BAF-4458-925F-E6DC0BE508C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05AA7014-0BAF-4458-925F-E6DC0BE508C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AA7014-0BAF-4458-925F-E6DC0BE508C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AA7014-0BAF-4458-925F-E6DC0BE508C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AA7014-0BAF-4458-925F-E6DC0BE508C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05AA7014-0BAF-4458-925F-E6DC0BE508C1} = {6988F855-FC55-4BA4-81F5-32264937533F}
+	EndGlobalSection
+EndGlobal

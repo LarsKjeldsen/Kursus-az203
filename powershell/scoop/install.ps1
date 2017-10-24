@@ -9,6 +9,7 @@ concfg import solarized small
 scoop bucket add extras
 scoop install sublime-text 
 scoop install azure-cli azure-ps
+scoop install dotnet-sdk
 scoop install git sudo nodejs gow 
 
 
