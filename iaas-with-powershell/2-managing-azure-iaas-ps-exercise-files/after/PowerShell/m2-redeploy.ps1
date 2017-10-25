@@ -5,9 +5,9 @@
 
 #>
 
-$resourceGroup = "psod-iaas"
+$resourceGroup = "automscaling"
 $location = "North Europe"
-$storageAccountName = "psodiaas"
+$storageAccountName = "ms20532automscalingstorage"
 
 $vnetName = "iaas-vnet" 
 $vnet = New-AzureRmVirtualNetwork -Name $vnetName -ResourceGroupName $resourceGroup -Location $location -AddressPrefix 10.0.0.0/16

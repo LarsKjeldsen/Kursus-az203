@@ -26,7 +26,7 @@ Param
     $LoadBalancerName
 )
 
-$ubImageUri = "<full-uri-to-vhd-goes-here"
+$ubImageUri = "https://ms20532.blob.core.windows.net/system/Microsoft.Compute/Images/vm-images/ub-proxy-osDisk.1305530f-2b2b-40e7-a6b3-49fb89a62275.vhd"
 
 $storageAccount = Get-AzureRmStorageAccount -ResourceGroupName $ResourceGroupName -Name $StorageAccountName
 $vnet = Get-AzureRmVirtualNetwork -Name $VnetName -ResourceGroupName $ResourceGroupName

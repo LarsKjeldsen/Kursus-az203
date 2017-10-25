@@ -1,5 +1,0 @@
-C:\TRAINING\Azure\MS0532\ms20532\managing-azure-iaas-with-powershell\2-managing-azure-iaas-ps-exercise-files\before\dotnet\dotnet.Iaas\src\Sixeyed.Iaas.WebApp\bin\Debug\net46\Sixeyed.Iaas.WebApp.runtimeconfig.json
-C:\TRAINING\Azure\MS0532\ms20532\managing-azure-iaas-with-powershell\2-managing-azure-iaas-ps-exercise-files\before\dotnet\dotnet.Iaas\src\Sixeyed.Iaas.WebApp\bin\Debug\net46\Sixeyed.Iaas.WebApp.runtimeconfig.dev.json
-C:\TRAINING\Azure\MS0532\ms20532\managing-azure-iaas-with-powershell\2-managing-azure-iaas-ps-exercise-files\before\dotnet\dotnet.Iaas\src\Sixeyed.Iaas.WebApp\obj\Debug\net46\Sixeyed.Iaas.WebApp.csprojResolveAssemblyReference.cache
-C:\TRAINING\Azure\MS0532\ms20532\managing-azure-iaas-with-powershell\2-managing-azure-iaas-ps-exercise-files\before\dotnet\dotnet.Iaas\src\Sixeyed.Iaas.WebApp\obj\Debug\net46\Sixeyed.Iaas.WebApp.csproj.Sixeyed.Iaas.WebApp.exe.config
-C:\TRAINING\Azure\MS0532\ms20532\managing-azure-iaas-with-powershell\2-managing-azure-iaas-ps-exercise-files\before\dotnet\dotnet.Iaas\src\Sixeyed.Iaas.WebApp\obj\Debug\net46\Sixeyed.Iaas.WebApp.AssemblyInfo.cs
