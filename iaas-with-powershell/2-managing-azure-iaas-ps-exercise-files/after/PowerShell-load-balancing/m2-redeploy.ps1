@@ -1,11 +1,8 @@
 <#
-  Azure VMs with custom Images (Restored from vhd)
+  Azure VMs with custom Images and load-balanced 
 
-  One subnet for windows and linux 
+  2 subnets for windows and linux separated
 
-  * Instructions for Windows: https://azure.microsoft.com/documentation/articles/virtual-machines-windows-upload-image/ 
-  * Instructions for Linux: https://azure.microsoft.com/documentation/articles/virtual-machines-linux-capture-image/ 
-  
 #>
 
 Import-Module AzureRM

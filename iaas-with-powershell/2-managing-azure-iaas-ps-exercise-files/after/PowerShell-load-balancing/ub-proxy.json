@@ -1,0 +1,68 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/VM_IP.json",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "type": "string"
+    },
+    "vmSize": {
+      "type": "string",
+      "defaultValue": "Basic_A1"
+    },
+    "adminUserName": {
+      "type": "string"
+    },
+    "adminPassword": {
+      "type": "securestring"
+    },
+    "networkInterfaceId": {
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "apiVersion": "2017-03-30",
+      "properties": {
+        "hardwareProfile": {
+          "vmSize": "[parameters('vmSize')]"
+        },
+        "storageProfile": {
+          "osDisk": {
+            "osType": "Linux",
+            "name": "ub-proxy-osDisk.1305530f-2b2b-40e7-a6b3-49fb89a62275.vhd",
+            "createOption": "FromImage",
+            "image": {
+              "uri": "https://ms20532.blob.core.windows.net/system/Microsoft.Compute/Images/vm-images/ub-proxy-osDisk.1305530f-2b2b-40e7-a6b3-49fb89a62275.vhd"
+            },
+            "vhd": {
+              "uri": "https://ms20532.blob.core.windows.net/vmcontainer267e5ad7-07e2-478e-95ab-31cf253f5d7a/osDisk.267e5ad7-07e2-478e-95ab-31cf253f5d7a.vhd"
+            },
+            "caching": "ReadWrite"
+          }
+        },
+        "osProfile": {
+          "computerName": "[parameters('vmName')]",
+          "adminUsername": "[parameters('adminUsername')]",
+          "adminPassword": "[parameters('adminPassword')]"
+        },
+        "networkProfile": {
+          "networkInterfaces": [
+            {
+              "id": "[parameters('networkInterfaceId')]"
+            }
+          ]
+        },
+        "diagnosticsProfile": {
+          "bootDiagnostics": {
+            "enabled": true,
+            "storageUri": "https://ms20532.blob.core.windows.net/"
+          }
+        },
+        "provisioningState": 0
+      },
+      "type": "Microsoft.Compute/virtualMachines",
+      "location": "westeurope",
+      "name": "[parameters('vmName')]"
+    }
+  ]
+}
