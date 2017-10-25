@@ -233,11 +233,6 @@ function stop-Linux-VM    {  Stop-AzureRmVM  -Name $vm2Name -ResourceGroupName $
 function start-Linux-VM   {  Start-AzureRmVM -Name $vm2Name -ResourceGroupName $resourceGroup  }
 function connect-Linux-VM {  ssh jalal@52.236.160.144  }
 
-start-Linux-VM
-
-
-
-
 
 <# #########################################################################
     Azure Iaas Charges you for Virtuan machine and windows license fee
@@ -250,9 +245,6 @@ start-Linux-VM
 
 
 
-
-
-
 function remove-ResourceGroup {
     # To clean up and remove everything. just delete the $resourceGroup   
   
@@ -260,7 +252,3 @@ function remove-ResourceGroup {
   
     Remove-AzureRmResourceGroup -Id $rg.ResourceId -Force -WhatIf
 }
-
-remove-ResourceGroup
-
-
