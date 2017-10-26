@@ -17,7 +17,13 @@ Param
     $VnetName,    
     [Parameter(Mandatory=$true)]
     [Int] 
-    $SubnetIndex
+    $SubnetIndex,  
+    [Parameter(Mandatory=$true)]
+    [String]
+    $AvailabilitySetId,
+    [Parameter(Mandatory=$true)]
+    [String] 
+    $LoadBalancerName
 )
 
 $winImageUri = "https://ms20532.blob.core.windows.net/system/Microsoft.Compute/Images/vm-images/win-web-app-osDisk.648afa2a-bd96-4037-8c46-ad6f91919925.vhd"
@@ -27,17 +33,17 @@ $vnet = Get-AzureRmVirtualNetwork -Name $VnetName -ResourceGroupName $ResourceGr
 
 $nicName = "$VmName-nic"
 
-$pip = New-AzureRmPublicIpAddress -Name $nicName -ResourceGroupName $ResourceGroup -Location $Location -AllocationMethod Dynamic     
+$lb = Get-AzureRmLoadBalancer -ResourceGroupName $ResourceGroupName -Name $LoadBalancerName
 
 $nic = New-AzureRmNetworkInterface -Name $nicName -ResourceGroupName $ResourceGroup `
                                    -Location $Location -SubnetId $vnet.Subnets[$SubnetIndex].Id `
-                                   -PublicIpAddressId $pip.Id
-                                   
+                                   -LoadBalancerBackendAddressPool $lb.BackendAddressPools[0]
 
-$vm = New-AzureRmVMConfig -VMName $VmName -VMSize "Basic_A1" 
+$vm = New-AzureRmVMConfig -VMName $VmName -VMSize "Standard_A1" -AvailabilitySetId $AvailabilitySetId
 
-$cred = Get-Credential -Message "Admin credentials for the new $VmName"
-$vm = Set-AzureRmVMOperatingSystem -VM $vm -Windows -ComputerName $VmName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$cred = Get-Credential -Message "Admin credentials"
+$vm = Set-AzureRmVMOperatingSystem -VM $vm -Windows -ComputerName $VmName -Credential $cred `
+                                 -ProvisionVMAgent -EnableAutoUpdate
 $vm = Add-AzureRmVMNetworkInterface -VM $vm -Id $nic.Id
 
 $diskName = $VmName + "-os-disk"

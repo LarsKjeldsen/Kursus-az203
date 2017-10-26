@@ -17,7 +17,13 @@ Param
     $VnetName,    
     [Parameter(Mandatory=$true)]
     [Int] 
-    $SubnetIndex
+    $SubnetIndex,  
+    [Parameter(Mandatory=$true)]
+    [String]
+    $AvailabilitySetId,
+    [Parameter(Mandatory=$true)]
+    [String] 
+    $LoadBalancerName
 )
 
 $ubImageUri = "https://ms20532.blob.core.windows.net/system/Microsoft.Compute/Images/vm-images/ub-proxy-osDisk.1305530f-2b2b-40e7-a6b3-49fb89a62275.vhd"
@@ -27,14 +33,13 @@ $vnet = Get-AzureRmVirtualNetwork -Name $VnetName -ResourceGroupName $ResourceGr
 
 $nicName = "$vmName-nic"
 
-$pip = New-AzureRmPublicIpAddress -Name $nicName -ResourceGroupName $ResourceGroup -Location $Location -AllocationMethod Dynamic     
+$lb = Get-AzureRmLoadBalancer -ResourceGroupName $ResourceGroupName -Name $LoadBalancerName
 
 $nic = New-AzureRmNetworkInterface -Name $nicName -ResourceGroupName $ResourceGroupName `
                                    -Location $Location -SubnetId $vnet.Subnets[$SubnetIndex].Id `
-                                   -PublicIpAddressId $pip.Id
+                                   -LoadBalancerBackendAddressPool $lb.BackendAddressPools[0]
 
-
-$vm = New-AzureRmVMConfig -VMName $VmName -VMSize "Basic_A1" 
+$vm = New-AzureRmVMConfig -VMName $VmName -VMSize "Standard_A1" -AvailabilitySetId $AvailabilitySetId
 
 $cred = Get-Credential -Message "Admin credentials"
 $vm = Set-AzureRmVMOperatingSystem -VM $vm -Linux  -ComputerName $VmName -Credential $cred 
