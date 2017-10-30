@@ -1,3 +1,14 @@
+## adgang
+
+1) Skillpipe adgang
+2) Azure-pass 
+
+
+(3) certificering 70-532 
+
+
+
+
 ## Classic Portal vs. Current Portal
 
 ```
@@ -8,8 +19,8 @@ version 2: ARM  Azure Resource Management model
 
 Commandline: 
 
-* Azure-cli 
-* Powershell CLI 
+* Azure-cli 	 --> xplatform  (nodejs)
+* Powershell CLI --> powershell (dotnet)
 
 
 Web Portal Intefaces:
