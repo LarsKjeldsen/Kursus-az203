@@ -2,6 +2,9 @@
 
 ### console theme
 
+# windows apt-get install 
+# browser scoop.sh
+
 scoop install concfg pshazz
 concfg import solarized small
 
