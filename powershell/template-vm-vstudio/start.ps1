@@ -9,6 +9,9 @@ Login-AzureRmAccount  er ikke tilgængeligt
 download og installere Azure-ps 
 
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
+# curl https://get.scoop.sh
+
 scoop install azure-ps
 
  
