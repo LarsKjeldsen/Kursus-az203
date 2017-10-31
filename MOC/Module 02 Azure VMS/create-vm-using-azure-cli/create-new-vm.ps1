@@ -4,7 +4,7 @@
 
 
 # Update for your admin password
-$AdminPassword="AzurePa55w.rd"
+$AdminPassword="***********"
 $UserName     ="Jalal" 
 
 # Create a resource group.

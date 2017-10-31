@@ -146,7 +146,7 @@ function cd {
 $host.PrivateData.ErrorBackgroundColor = 15
 
 ## Fjerne den gule farvet prompt 
-remove-module psreadline
+## remove-module psreadline
 
 
 
