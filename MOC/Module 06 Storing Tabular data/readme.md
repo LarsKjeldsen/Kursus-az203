@@ -4,12 +4,16 @@
 	* Local Redundent Storage (always 3 copies on the same DataCenterRegion )
 	* Zone Redundent Storage ( same region multiple Zones  )
 	* geo  Redundent Storage ( Cross regions )
-	* ReadAccess geo Redundent Storage
+	* ReadAccess geo Redundent Storage ( primary: read/write  secondary:readonly)
 
 
-Can get Access from VMS, on-promises, any programmering language. 
+Uses HTTP (REST API)
+
+ * Can get Access from VMS, on-promises, any programmering language. 
+
 
 Storage Types: 
+
 * Azure SQL Database (Relational DB)
 * Table (NoSQL === JSON DB)
 * BLOB  (vhd)
@@ -29,9 +33,12 @@ Tools available :
 	* https://<storageAccountName>.file.core.windows.net/<SAS-Token>
 	* https://<storageAccountName>.queue.core.windows.net/<SAS-Token>
 	* https://<storageAccountName>.table.core.windows.net/<SAS-Token>
+
+	* https://ms532storage.blob.core.windows.net/test/azure-kurser.JPG
+
+
+
 ```
-
-
 
 ## Azure Table/NoSQL Storage
 
@@ -40,8 +47,6 @@ The name Table is key:value pairs (like JSON)
 NoSQL examples from my web projects: 
 
 * REST API with JSON (Screen Data)
-* https://fullstack-ng4.itacademy.dk/ (CRUD)
-* https://couchdb.itacademy.dk/ (Admin)
 
 
 ## OData Queries
