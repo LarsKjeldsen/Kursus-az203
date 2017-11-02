@@ -7,7 +7,12 @@
 
 
 
-## SSL using LetsEncrypt.org 
+## SSL fra Azure
+
+Køb "App Service Certificate" : https://portal.azure.com/#create/Microsoft.SSL
+
+
+## SSL fra OpenSource (Free)
 
 * https://letsencrypt.org/
 
