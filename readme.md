@@ -10,6 +10,24 @@
 * https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions
 
 
+# forudsætning inden man starter på 20532
+
+```
+
+1) SU0530 Windows PowerShell 
+https://www.superusers.dk/kursus/su0530/
+
+
+2) 10979-MicrosoftAzureFundamentals
+https://github.com/MicrosoftLearning/10979-MicrosoftAzureFundamentals
+
+
+3) git versionstyring
+https://www.superusers.dk/kursus/su0159/
+
+```
+
+
 ## MCT 
 
 * https://borntolearn.mslearn.net/mct/m/mediagallery/372461/download
