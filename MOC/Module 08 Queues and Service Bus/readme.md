@@ -45,3 +45,15 @@ First, you should start by designing the templates that specify how the notifica
 
 ```
 
+
+
+## storage-queue-samples
+
+* https://docs.microsoft.com/da-dk/azure/storage/queues/storage-powershell-how-to-use-queues
+* https://azure.microsoft.com/en-us/resources/samples/storage-cli-getting-started/
+
+
+
+## All azure samples 
+
+* https://azure.microsoft.com/en-us/resources/samples/
