@@ -1,0 +1,15 @@
+{
+  "name": "WebApp_Test",
+  "version": "1.0.0",
+  "description": "Testing https://loadapplication01.azurewebsites.net/",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server . --port=1234 --open "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
