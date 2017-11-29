@@ -24,7 +24,7 @@ namespace LoanApplications
 
             // TODO: write to queue
 
-            return req.CreateResponse(HttpStatusCode.OK, $"Loan application submitted for {application.Name}");
+            return req.CreateResponse(HttpStatusCode.OK, $"Loan application submitted for {application.Name} with Age: {application.Age} ");
         }
     }
 }
