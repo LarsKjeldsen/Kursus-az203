@@ -1,3 +1,15 @@
+# PreCompiled "C#" FunctionApps
+
+PreCompiled is using C# not csx
+
+1. Usefull for VS Develop, Debug and intellicense 
+
+2. Can simulate local Storage for BLOB-Storage 
+
+3. Writing Unit Tests 
+
+
+
 ## local.settings.json (using remote storage account)
 
 ```
@@ -25,6 +37,26 @@
 }
 
 ```
+
+
+
+
+## local.settings.json (AzureWebJobs)
+
+```
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "",
+    "AzureWebJobsServiceBus":"Endpoint=sb://loanapplicationX.servicebus.net/;SAS",
+    "AzureWebjobsLoanApplicationsEventHub":"Endpoint=sb://loanapplicationY.servicebus.net/;SAS"
+  }
+}
+
+```
+
+
 
 
 ## Test
