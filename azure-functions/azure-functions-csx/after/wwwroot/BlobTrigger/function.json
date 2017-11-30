@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "greeting-requests/{name}",
+      "connection": "triggersqsstorage_STORAGE"
+    },
+    {
+      "type": "blob",
+      "name": "outputBlob",
+      "path": "sms-receipts/{rand-guid}",
+      "connection": "triggersqsstorage_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
