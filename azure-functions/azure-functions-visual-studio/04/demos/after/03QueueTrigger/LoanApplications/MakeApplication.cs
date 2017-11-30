@@ -16,7 +16,7 @@ namespace LoanApplications
             [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]
             HttpRequestMessage req,
             //[Queue("loan-applications")] out string message,
-            //[Queue("loan-applications")] IAsyncCollector<LoanApplication> messageQueue,
+            [Queue("loan-applications")] IAsyncCollector<LoanApplication> messageQueue,
             TraceWriter log)
         {
             log.Info("C# HTTP trigger function processed a request.");
@@ -25,8 +25,8 @@ namespace LoanApplications
 
             log.Info($"Application received: {application.Name} {application.Age}");
 
-            // TODO: write to queue
-            //await messageQueue.AddAsync(application);
+            // TODO: write to queue (ekstra post)
+            // await messageQueue.AddAsync(application);
             return application;
 
             //return req.CreateResponse(HttpStatusCode.OK, 
