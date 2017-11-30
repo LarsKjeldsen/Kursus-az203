@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.0.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "",
+      "queueName": "loan-applications",
+      "accessRights": "listen",
+      "name": "applicationJson"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\bin\\LoanApplications.dll",
+  "entryPoint": "LoanApplications.ServiceBusBridge.Run"
+}

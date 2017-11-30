@@ -1,0 +1,15 @@
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\EventHubSender.exe.config
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\EventHubSender.exe
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\EventHubSender.pdb
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Loans.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Microsoft.Azure.Amqp.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Microsoft.Azure.EventHubs.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Newtonsoft.Json.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Loans.pdb
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Microsoft.Azure.Amqp.xml
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Microsoft.Azure.EventHubs.xml
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\bin\Debug\Newtonsoft.Json.xml
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\obj\Debug\EventHubSender.csprojResolveAssemblyReference.cache
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\obj\Debug\EventHubSender.csproj.CoreCompileInputs.cache
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\obj\Debug\EventHubSender.exe
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\EventHubSender\obj\Debug\EventHubSender.pdb

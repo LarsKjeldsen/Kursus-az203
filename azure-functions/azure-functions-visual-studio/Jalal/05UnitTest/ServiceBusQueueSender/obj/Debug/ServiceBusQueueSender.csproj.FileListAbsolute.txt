@@ -1,0 +1,13 @@
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.exe.config
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.exe
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.pdb
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Loans.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Microsoft.ServiceBus.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Newtonsoft.Json.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Loans.pdb
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Microsoft.ServiceBus.xml
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Newtonsoft.Json.xml
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.csprojResolveAssemblyReference.cache
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.csproj.CoreCompileInputs.cache
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.exe
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.pdb

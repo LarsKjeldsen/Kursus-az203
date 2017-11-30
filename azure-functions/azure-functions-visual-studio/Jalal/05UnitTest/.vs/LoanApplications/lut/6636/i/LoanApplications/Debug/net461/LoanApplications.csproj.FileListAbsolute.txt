@@ -1,0 +1,9 @@
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\LoanApplications\Debug\net461\host.json
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\LoanApplications\Debug\net461\bin\LoanApplications.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\LoanApplications\Debug\net461\LoanApplications.pdb
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\LoanApplications\Debug\net461\LoanApplications.csprojResolveAssemblyReference.cache
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\LoanApplications\Debug\net461\LoanApplications.csproj.CoreCompileInputs.cache
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\LoanApplications\Debug\net461\LoanApplications.AssemblyInfoInputs.cache
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\LoanApplications\Debug\net461\LoanApplications.AssemblyInfo.cs
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\LoanApplications\Debug\net461\LoanApplications.dll
+F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\LoanApplications\Debug\net461\LoanApplications.pdb

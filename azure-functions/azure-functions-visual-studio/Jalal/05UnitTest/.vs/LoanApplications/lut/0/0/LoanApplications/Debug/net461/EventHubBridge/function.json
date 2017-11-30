@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.0.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "path": "loan-applications",
+      "connection": "AzureWebJobsLoanApplicationsEventHub",
+      "name": "applicationJson"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\bin\\LoanApplications.dll",
+  "entryPoint": "LoanApplications.EventHubBridge.Run"
+}

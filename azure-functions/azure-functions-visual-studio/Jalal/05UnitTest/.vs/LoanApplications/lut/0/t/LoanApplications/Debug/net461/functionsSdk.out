@@ -1,0 +1,7 @@
+EventHubBridge\function.json
+HouseKeeping\function.json
+MakeApplication\function.json
+ProcessAcceptedApplications\function.json
+ProcessDeclinedApplications\function.json
+ScoreApplication\function.json
+ServiceBusBridge\function.json

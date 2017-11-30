@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.0.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "connection": "",
+      "path": "accepted-applications/{name}",
+      "name": "applicationJson"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\bin\\LoanApplications.dll",
+  "entryPoint": "LoanApplications.ProcessAcceptedApplications.Run"
+}
