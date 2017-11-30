@@ -1,11 +1,11 @@
-﻿
+
 # Flow 
 
 ```
 
 1) HTTP POST listener on address http://localhost:7071/api/MakeApplication 
 
-2) When request body contains (name='' age='' )
+2) When request body contains (name='Nadine' age='16' )
 
 3) MakeApplications runs > sends data to Queue Storage 
 
@@ -15,21 +15,8 @@
 ```
 
 
-## local.settings.json (using local Storage emulator)
 
-```
-{
-    "IsEncrypted": false,
-  "Values": {
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "AzureWebJobsDashboard": ""
-  }
-}
-
-```
-
-
-## Test
+## Test 
 
 ```
  http post  http://localhost:7071/api/MakeApplication name='Jalal' age='40'
