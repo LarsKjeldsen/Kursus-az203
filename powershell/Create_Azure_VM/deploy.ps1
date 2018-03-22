@@ -24,13 +24,30 @@ $vmSize   = 'Basic_A3'
   
 #>
 
+
+<#
+
+# 
+  How to find the latest skus image available
+  $Windows = '2012-R2-Datacenter'
+
+#>
+
+$Windows = '2016-Datacenter'
+
+$AzureImageSku   = Get-AzureRmVMImage -Location $location -PublisherName "MicrosoftWindowsServer" -Offer "WindowsServer" -Skus $windows
+$AzureImageSku   = $AzureImageSku | Sort-Object Version -Descending #put the newest first which is the highest patched version
+$skuName_latest  = $AzureImageSku[0] #Newest
+$skuName_latest.skus
+
+
 $NameSpace    = 'kursus'
 $rgName       = "$NameSpace-group"
 $vmName       = "$NameSpace-vm"
 
 $pubName      = 'MicrosoftWindowsServer'
 $offerName    = 'WindowsServer'
-$skuName      = '2016-Datacenter'
+$skuName      =  $skuName_latest.skus
 $vnetName     = "$NameSpace-vnet"
 $vnetPrefix   = '10.1.0.0/20'
 $subnetName   = 'default'
@@ -78,7 +95,7 @@ $nsg = New-AzureRmNetworkSecurityGroup -ResourceGroupName $rgName -Location $loc
 # Create a public IP and NIC
 $pip = New-AzureRmPublicIpAddress -Name $pipName -ResourceGroupName $rgName -Location $location -AllocationMethod Dynamic 
 $nic = New-AzureRmNetworkInterface -Name $nicName -ResourceGroupName $rgName -Location $location `
-      -SubnetId $subnetid -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id
+      -SubnetId $subnetId -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id
 
 # Set VM Configuration
 $vmConfig = New-AzureRmVMConfig -VMName $vmName -VMSize $vmSize
@@ -88,15 +105,12 @@ Set-AzureRmVMSourceImage -VM $vmConfig -PublisherName $pubName -Offer $offerName
 Set-AzureRmVMOSDisk -VM $vmConfig -Name $osDiskName -DiskSizeInGB $osDiskSize -StorageAccountType $osDiskType -CreateOption fromImage
 
 
-
-
 # Create Virtual Machine
 Write-Output "Creating the VM" | timestamp
 New-AzureRmVM -ResourceGroupName $rgName -Location $location -VM $vmConfig
-Write-Output "VM creation complete" | timestamp
 
 
 
 
-
+$timestamp = (Get-Date).Ticks
 Write-Output "Installation complete" | timestamp
