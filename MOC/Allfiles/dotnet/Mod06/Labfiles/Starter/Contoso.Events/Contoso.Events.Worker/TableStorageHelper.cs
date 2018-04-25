@@ -19,7 +19,9 @@ namespace Contoso.Events.Worker
         
         public IEnumerable<string> GetRegistrantNames(string eventKey)
         {
-            return Enumerable.Empty<string>();
+             return Enumerable.Empty<string>();
+            //CloudTable table = _tableClient.GetTableReference("EventRegistrations");
+
         }
     }
 }
