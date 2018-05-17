@@ -2,7 +2,7 @@
 
 PreCompiled is using C# not csx
 
-1. Usefull for VS Develop, Debug and intellicense 
+1. Usefull for VS Develop, Debug and intellisense 
 
 2. Can simulate local Storage for BLOB-Storage 
 
