@@ -1,0 +1,20 @@
+{
+  "name": "Nodejs_ServiceBus",
+  "version": "1.0.0",
+  "description": "demo for listning and sending messages to Azure servicebus relay",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-sb": ""
+  },
+  "azure": {
+    "servicebus": "Endpoint=sb://superusers.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ox1Sb63+FM136Qprw38ud0gdTLpMvyf4sKkZU1KKuxE=",
+    "queue_name": "nodejs_service"
+  }
+}
