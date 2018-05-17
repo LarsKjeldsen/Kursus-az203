@@ -50,7 +50,7 @@ https://www.superusers.dk/kursus/su0159/
 
 * module 06 ( Storing Tabular Data in Azure )
 * module 07 ( Storing and Consuming Files from Azure Storage)
-* module 08 (Queues and Service Bus)
+* module 08 ( Queues and Service Bus )
 
 ## dag 4
 
