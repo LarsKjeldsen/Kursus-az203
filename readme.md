@@ -36,23 +36,25 @@ https://www.superusers.dk/kursus/su0159/
 
 ## dag 1
 
-* module 01 ( portal )
+* module 01 ( Azure Overview )
 * module 02 ( virtual machine )
-
+* module 03 ( WebApps , Logic Apps, Function Apps )
 
 ## dag 2
 
-* module 03 ( website )
-* module 04 ( SQL )
+* module 04 ( SQL Database )
 * module 05 ( Designing Cloud Applications for Resiliency )
 
 ## dag 3
 
-* module 06 ( Storing Tabular Data in Azure )
+* module 06 ( Storing NoSQL Data in Azure )
 * module 07 ( Storing and Consuming Files from Azure Storage)
-* module 08 ( Queues and Service Bus )
 
 ## dag 4
 
+* module 08 ( Queues and Service Bus )
 * module 09 ( automation )
-* module 10 ( security )
+
+## dag 5
+* module 10 ( DevOps )
+* module 11 ( Security )
