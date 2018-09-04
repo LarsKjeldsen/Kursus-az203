@@ -1,16 +1,16 @@
-# MS20532 Developing Microsoft Azure Solutions
+# MS20532 Developing Microsoft Azure Solutions (D)
 
 
 ## Microsoft Official Course
 
 * https://www.microsoft.com/en-us/learning/course.aspx?cid=20532C
 
-## github source for MOC 20532
+## github source for MOC 20532-D
 
 * https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions
 
 
-# forudsætning inden man starter på 20532
+# forudsætning inden man starter på 20532-D
 
 ```
 
