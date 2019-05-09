@@ -62,4 +62,15 @@ AZ-203T06-A Connect to and consume Azure, and third-party, services
 
 
 
+## Azure-academy
+
+* https://training.azure-academy.com/dashboard
+
+
+
+
+
+
+
+
 
