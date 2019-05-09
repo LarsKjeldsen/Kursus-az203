@@ -20,3 +20,10 @@ npm i -g azure-functions-core-tools
 func init 
 ```
 
+## ref.
+
+* https://github.com/Azure/Azure-Functions/wiki/Samples-and-content
+
+* https://docs.microsoft.com/en-us/azure/functions/tutorial-static-website-serverless-api-with-database
+
+
