@@ -1,60 +1,65 @@
-# MS20532 Developing Microsoft Azure Solutions (D)
+# AZ-203 Developing Solutions for Microsoft Azure
 
 
 ## Microsoft Official Course
 
-* https://www.microsoft.com/en-us/learning/course.aspx?cid=20532C
+*  https://www.microsoft.com/en-us/learning/exam-az-203.aspx
 
-## github source for MOC 20532-D
+## github Hands-on-labs
 
-* https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions
+* https://github.com/MicrosoftLearning/AZ-203-DevelopingSolutionsforMicrosoftAzure
+
+* https://microsoftlearning.github.io/AZ-203-DevelopingSolutionsforMicrosoftAzure/
 
 
-# forudsætning inden man starter på 20532-D
+# Anbefalet forudsætning inden man starter på Azure Developing Track:
 
 ```
 
-1) SU0530 Windows PowerShell 
+1) Windows PowerShell 
 https://www.superusers.dk/kursus/su0530/
 
 
-2) 10979-MicrosoftAzureFundamentals
-https://github.com/MicrosoftLearning/10979-MicrosoftAzureFundamentals
+2) Azure Fundamentals
+https://www.superusers.dk/kursus/ms0979/
 
 
-3) git versionstyring
+3) git source-control
 https://www.superusers.dk/kursus/su0159/
+
+
+4) container (docker) 
+https://www.superusers.dk/kursus/su0160/
+
 
 ```
 
 
-## MCT course release dates
-
-* https://borntolearn.mslearn.net/mct/m/mediagallery/372461/download
 
 
+## 5 days 
 
-## dag 1
+```
+AZ-203T01-A Develop Azure Infrastructure as a Service compute solutions
+AZ-203T02-A Develop Azure Platform as a Service compute solutions
+AZ-203T03-A Develop for Azure storage
+AZ-203T04-A Implement Azure security
+AZ-203T05-A Monitor, troubleshoot, and optimize Azure solutions
+AZ-203T06-A Connect to and consume Azure, and third-party, services
+```
 
-* module 01 ( Azure Overview )
-* module 02 ( virtual machine )
-* module 03 ( WebApps , Logic Apps, Function Apps )
+## [day 1] Develop Azure Infrastructure as a Service compute solutions
 
-## dag 2
+## [day 2] Develop Azure Platform as a Service compute solutions
 
-* module 04 ( SQL Database )
-* module 05 ( Designing Cloud Applications for Resiliency )
+## [day 3] Develop for Azure storage
 
-## dag 3
+## [day 4] Implement Azure security & Monitor, troubleshoot Azure solutions    
 
-* module 06 ( Storing NoSQL Data in Azure )
-* module 07 ( Storing and Consuming Files from Azure Storage)
+## [day 5] Connect to and consume Azure, and third-party, services
 
-## dag 4
 
-* module 08 ( Queues and Service Bus )
-* module 09 ( automation )
 
-## dag 5
-* module 10 ( DevOps )
-* module 11 ( Security )
+
+
+
