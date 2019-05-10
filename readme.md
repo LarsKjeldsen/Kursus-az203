@@ -42,12 +42,12 @@ https://www.superusers.dk/kursus/su0160/
 ## 5 days 
 
 ```text
-AZ-203T01-A Develop Azure Infrastructure as a Service compute solutions
-AZ-203T02-A Develop Azure Platform as a Service compute solutions
-AZ-203T03-A Develop for Azure storage
-AZ-203T04-A Implement Azure security
-AZ-203T05-A Monitor, troubleshoot, and optimize Azure solutions
-AZ-203T06-A Connect to and consume Azure, and third-party, services
+(01) Develop Azure Infrastructure as a Service compute solutions
+(02) Develop Azure Platform as a Service compute solutions
+(03) Develop for Azure storage
+(04) Implement Azure security
+(05) Monitor, troubleshoot, and optimize Azure solutions
+(06) Connect to and consume Azure, and third-party, services
 ```
 
 
