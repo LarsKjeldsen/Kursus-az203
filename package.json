@@ -6,11 +6,11 @@
   "scripts": {
     "deploy": "git add . && git commit -m '.' && git push origin master "
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "keywords": [],
   "author": "Jalal.Hejazi <Jalal.Hejazi@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://git.itacademy.dk/cloud/az-203.git"
+  }
 }
