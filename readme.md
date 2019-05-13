@@ -61,6 +61,41 @@ https://www.superusers.dk/kursus/su0160/
 
 
 
+### Azure Tips and Tricks
+
+- [Tips and Tricks Toturials](https://microsoft.github.io/AzureTipsAndTricks/)
+
+- [Tips and Tricks on youtube](https://www.youtube.com/playlist?list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC)
+
+<br>
+### Azure DevOps Labs 
+
+- [Labs](https://github.com/microsoft/azuredevopslabs/tree/master/labs/vstsextend)
+
+
+<br>
+
+### cloud workshop
+- [cloud workshop](https://microsoftcloudworkshop.com/)
+
+- [Serverless workshop](https://github.com/microsoft/MCW-Serverless-architecture)
+
+```
+Azure Functions
+Azure Cognitive Services
+Azure Event Grid
+Application Insights
+Azure Cosmos DB
+Logic Apps
+```
+
+<br>
+### AZ-203T01-A - Develop Azure Infrastructure as a Service compute solutions
+
+- [AKS Deployment Tutorial](https://github.com/Microsoft/azuredevopslabs/tree/master/labs/vstsextend/kubernetes/)
+
+
+
 
 
 
