@@ -3,7 +3,7 @@
 
 
 # Select the target subscription
-$Subscription_Id        = "6ef2cbd4-1b87-4409-ab0e-403ffe9024b3"
+$Subscription_Id        = "TODO"
 Select-AzureRmSubscription -SubscriptionID $Subscription_Id;
 
 ######################### Global configs 

@@ -25,6 +25,6 @@ build and run ./src/ServiceBusExplorer/bin/debug/ServiceBusExplorer.exe
 
 ```
 
-Endpoint=sb://superusers.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=4dDhWNmHpaZrZZS+o/+w1T9y10rWAIEqb4kC9nU7rFo=
+Endpoint=sb://superusers.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=TODO
 
 ```

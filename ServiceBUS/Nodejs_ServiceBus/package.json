@@ -14,7 +14,7 @@
     "azure-sb": ""
   },
   "azure": {
-    "servicebus": "Endpoint=sb://superusers.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ox1Sb63+FM136Qprw38ud0gdTLpMvyf4sKkZU1KKuxE=",
+    "servicebus": "Endpoint=sb://superusers.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=TODO",
     "queue_name": "nodejs_service"
   }
 }

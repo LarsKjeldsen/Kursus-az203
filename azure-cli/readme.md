@@ -26,11 +26,3 @@ az vm list --resource-group  Default-Web-NorthEurope
 
 
 ```
-
-
-## Azure Functions 
-
-https://opbuildstorageprod.blob.core.windows.net/output-pdf-files/en-us/Azure.azure-documents/live/azure-functions.pdf
-
-
-

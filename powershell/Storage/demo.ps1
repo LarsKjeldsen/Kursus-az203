@@ -3,14 +3,14 @@
 az login 
 
 ## az account set -s "Account ID or Account NAME"
-az account set -s "Visual Studio Ultimate med MSDN"
+az account set -s "TODO"
 az account show
 
 
 # store some variable
-$resourceGroup="ms20532-2018-04-25"
+$resourceGroup="TODO"
 $location="westeurope"
-$storageAccount="20180425"
+$storageAccount="TODO"
 
 # create our resource group
 az group create -n $resourceGroup -l $location
