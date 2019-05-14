@@ -9,9 +9,16 @@
 
 #### github Hands-on-labs
 
-* https://github.com/MicrosoftLearning/AZ-203-DevelopingSolutionsforMicrosoftAzure
-
 * https://microsoftlearning.github.io/AZ-203-DevelopingSolutionsforMicrosoftAzure/
+
+
+#### git clone repo
+
+```
+git clone https://superusers-kursus@dev.azure.com/superusers-kursus/az203/_git/az203
+
+```
+
 
 
 #### Anbefalet forudsætning inden man starter på Azure Developing Track:
