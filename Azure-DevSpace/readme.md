@@ -13,4 +13,7 @@ az group create --name azureDevSpaces --location westeurope
 
 az aks create -g azureDevSpaces -n MyAKS --location westeurope --generate-ssh-keys
 
-```
+az aks use-dev-spaces -g azureDevSpaces -n MyAKS --space dev --yes
+
+``
+

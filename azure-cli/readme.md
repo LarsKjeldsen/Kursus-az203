@@ -10,8 +10,6 @@ https://docs.microsoft.com/en-us/azure/#pivot=sdkstools&panel=sdkstools-all
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
 
-
-
 ```
 az login 
 
@@ -24,5 +22,14 @@ az vm list
 az vm list --resource-group  Default-Web-NorthEurope
 
 
+```
+
+
+## Cleanup Resources 
+
+```
+az group delete --name AzureDevSpace --yes --no-wait
+
+az group delete --name MC_AzureDevSpace_MyAKS_westeurope --yes --no-wait
 
 ```

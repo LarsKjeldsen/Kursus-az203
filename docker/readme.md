@@ -12,3 +12,11 @@ Docker for windows and linux
 
 
 
+## Azure Container Registry 
+
+```
+docker login superuserscontainerregistry.azurecr.io 
+
+docker pull superuserscontainerregistry.azurecr.io/myaks3a21:1
+
+```
