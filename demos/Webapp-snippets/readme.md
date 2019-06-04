@@ -1,7 +1,11 @@
 ## WebApp + Azure SQL 
 
 ```
-git clone https://git.itacademy.dk/cloud/webapp-snippets.git
+git clone https://superusers-kursus@dev.azure.com/superusers-kursus/deployment/_git/deployment  
+
+cd deployment/webapp-snippets
+
+. ./azuredeploy.ps1
 
 ```
 
