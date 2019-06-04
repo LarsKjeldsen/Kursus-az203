@@ -4,3 +4,9 @@ F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\Loan
 F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\Loans\obj\Debug\Loans.csproj.CoreCompileInputs.cache
 F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\Loans\obj\Debug\Loans.dll
 F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\Loans\obj\Debug\Loans.pdb
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\Loans\bin\Debug\Loans.dll
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\Loans\bin\Debug\Loans.pdb
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\Loans\obj\Debug\Loans.csprojAssemblyReference.cache
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\Loans\obj\Debug\Loans.csproj.CoreCompileInputs.cache
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\Loans\obj\Debug\Loans.dll
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\Loans\obj\Debug\Loans.pdb

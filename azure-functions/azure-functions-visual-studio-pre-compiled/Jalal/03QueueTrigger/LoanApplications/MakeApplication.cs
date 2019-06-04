@@ -13,9 +13,8 @@ namespace LoanApplications
         [FunctionName("MakeApplication")]
         [return: Queue("loan-applications")]
         public static async Task<LoanApplication> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]
+            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)]
             HttpRequestMessage req,
-            //[Queue("loan-applications")] out string message,
             [Queue("loan-applications")] IAsyncCollector<LoanApplication> messageQueue,
             TraceWriter log)
         {
@@ -23,14 +22,10 @@ namespace LoanApplications
 
             LoanApplication application = await req.Content.ReadAsAsync<LoanApplication>();
 
-            log.Info($"Application received: {application.Name} {application.Age}");
+            
+            log.Info($"Application received: {application.Name} {application.Age} !");
 
-            // TODO: write to queue (ekstra post)
-            // await messageQueue.AddAsync(application);
             return application;
-
-            //return req.CreateResponse(HttpStatusCode.OK, 
-            //                          $"Loan application submitted for {application.Name}");
         }
     }
 }

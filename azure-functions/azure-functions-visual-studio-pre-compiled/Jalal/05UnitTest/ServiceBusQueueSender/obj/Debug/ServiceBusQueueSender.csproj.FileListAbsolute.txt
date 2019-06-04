@@ -11,3 +11,17 @@ F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\Serv
 F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.csproj.CoreCompileInputs.cache
 F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.exe
 F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.pdb
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.exe.config
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.exe
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.pdb
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Loans.dll
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Microsoft.ServiceBus.dll
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Newtonsoft.Json.dll
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Loans.pdb
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Microsoft.ServiceBus.xml
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\bin\Debug\Newtonsoft.Json.xml
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.csprojAssemblyReference.cache
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.csproj.CoreCompileInputs.cache
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.csproj.CopyComplete
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.exe
+C:\dev\az203\azure-functions\azure-functions-visual-studio-pre-compiled\Jalal\05UnitTest\ServiceBusQueueSender\obj\Debug\ServiceBusQueueSender.pdb
