@@ -4,13 +4,10 @@
   "description": "Developing Azure Solutions",
   "main": "index.js",
   "scripts": {
-    "deploy": "git add . && git commit -m '.' && git push origin master "
+    "deploy": "git add . && git commit -m '.' && git push "
   },
   "keywords": [],
   "author": "Jalal.Hejazi <Jalal.Hejazi@gmail.com>",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://superusers-kursus:$Access_Token@dev.azure.com/superusers-kursus/az203/_git/az203"
-  }
+  "license": "ISC"
+ 
 }
