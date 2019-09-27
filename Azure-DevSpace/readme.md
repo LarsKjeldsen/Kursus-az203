@@ -17,3 +17,6 @@ az aks use-dev-spaces -g azureDevSpaces -n MyAKS --space dev --yes
 
 ``
 
+### quickstart AKS devepoment from azure-cli
+
+https://docs.microsoft.com/en-us/azure/dev-spaces/quickstart-cli
