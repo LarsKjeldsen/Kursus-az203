@@ -22,6 +22,7 @@ az aks use-dev-spaces -g azureDevSpaces -n MyAKS --space dev --yes
 
 https://docs.microsoft.com/en-us/azure/dev-spaces/quickstart-cli
 
+- [Use CloudShell](https://shell.azure.com/powershell)
 
 ```
 $resourceGroup='MyKubernetes'
