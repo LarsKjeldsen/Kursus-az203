@@ -35,6 +35,7 @@ $env:AZURE_STORAGE_CONNECTION_STRING = $connectionString
 az storage container create -n "private" --public-access off
 
 # create a demo file
+cd $home
 echo "Hello World" > example.txt  
 cat example.txt
 
