@@ -55,9 +55,7 @@ az storage blob upload -c "private" -f "example.txt" -n $blobName
 az storage blob url -c "private" -n $blobName -o tsv
 
 # generate a time limited read-only shared access signature for the private blob
-az storage blob generate-sas -c "private" -n $blobName `  
-    --permissions r -o tsv `
-    --expiry 2020-12-30T13:24Z
+az storage blob generate-sas -c "private" -n $blobName --permissions r -o tsv --expiry 2019-10-03T13:24Z
 
 # see more things you can do with blobs
 az storage blob -h
