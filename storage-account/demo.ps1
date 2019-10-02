@@ -1,7 +1,7 @@
 # store some variable
-$resourceGroup="CliStorageTest"
+$resourceGroup="az203"
 $location="westeurope"
-$storageAccount="cliblobtest"
+$storageAccount="kursusstorage"
 
 # create our resource group
 az group create -n $resourceGroup -l $location
