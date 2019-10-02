@@ -1,7 +1,7 @@
 # store some variable
 $resourceGroup="az203"
 $location="westeurope"
-$storageAccount="kursusstorage"
+$storageAccount="kursusjalal"
 
 # create our resource group
 az group create -n $resourceGroup -l $location
