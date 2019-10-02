@@ -77,7 +77,7 @@ az storage message put --content "Hello from CLI 2" -q $queueName
 az storage message get -q $queueName --visibility-timeout 120
 
 # delete the message from the queue
-az storage message delete --id "fdcac6e3-58b4-4231-972b-2f5b31b7c037" --pop-receipt "AgAAAAMAAAAAAAAADfnwkpxZ0wE=" -q $queueName
+az storage message delete --id "" --pop-receipt "" -q $queueName
 
 # TABLES
 
