@@ -1,7 +1,7 @@
 ## Send an event to a WebHook
 
 param(
-  $WebHookAddress = "todo",
+  $WebHookAddress = "https://superusers-kursus.westeurope-1.eventgrid.azure.net/api/events",
   $sharedKey = "todo",
   $message = "besked",
   $subject = "titel",
