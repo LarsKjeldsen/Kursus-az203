@@ -2,7 +2,7 @@
 
 param(
   $WebHookAddress = "https://superusers-kursus.westeurope-1.eventgrid.azure.net/api/events",
-  $sharedKey = "todo",
+  $token = "secret",
   $message = "besked",
   $subject = "titel",
   $x = "xxx",
@@ -30,4 +30,4 @@ $htbody = @{
 $body = "["+(ConvertTo-Json $htbody)+"]"
 
 # USE HTTP POST with a valid Token and Body as JSON
-Invoke-WebRequest -Uri $WebHookAddress -Method POST -Body $body -Headers @{"aeg-sas-key" = $sharedKey}
+Invoke-WebRequest -Uri $WebHookAddress -Method POST -Body $body -Headers @{"aeg-sas-token" = $token}
