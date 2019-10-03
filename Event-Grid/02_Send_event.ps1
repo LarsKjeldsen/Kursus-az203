@@ -16,6 +16,7 @@ $htbody = @{
     data= @{
         x="xxxx"
         y="yyyy"
+        z="zzzz"
     }
     dataVersion="1.0"
 }
