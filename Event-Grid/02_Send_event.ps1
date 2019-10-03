@@ -1,5 +1,11 @@
 ## Send an event to your Event Grid Topic
 
+param(
+  $message = "..."
+)
+
+
+
 # Resource Group Name
 $RG="az-203"
 # The name of Event Grid Topic
@@ -24,6 +30,7 @@ $htbody = @{
         x="xxxx"
         y="yyyy"
         z="zzzz"
+        message=$message
     }
     dataVersion="1.0"
 }
