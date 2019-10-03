@@ -1,10 +1,9 @@
 ## Send an event to your Event Grid Topic
 
 param(
-  $message = "..."
+  $message = "der-er-sket-noget",
+  $subject = "superusers/kursus/hver-gang-der-sker-noget-et-eller-andet-sted-kan-vi-fange-det" 
 )
-
-
 
 # Resource Group Name
 $RG="az-203"
@@ -22,15 +21,14 @@ $primaryKey=$(az eventgrid topic key list --name $topicname -g $RG --query "key1
 $eventID = Get-Random 99999
 $eventDate = Get-Date -Format s
 $htbody = @{
-    id= $eventID
-    eventType="der-er-sket-noget"
-    subject="superusers/kursus/hver-gang-der-sker-noget-et-eller-andet-sted-kan-vi-fange-det"
-    eventTime= $eventDate   
+    id=$eventID
+    eventType=$message
+    subject=$subject    
+    eventTime=$eventDate   
     data= @{
         x="xxxx"
         y="yyyy"
         z="zzzz"
-        message=$message
     }
     dataVersion="1.0"
 }
