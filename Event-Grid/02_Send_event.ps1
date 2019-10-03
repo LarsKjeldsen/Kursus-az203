@@ -13,8 +13,11 @@ $topicname="superusers-kursus"
 # Query the endpoint from eventgrid topic
 $URL=$(az eventgrid topic show --name $topicname -g $RG --query "endpoint" --output tsv)
 
-# Query the key1 from eventgrid topic
+# Query the key1 --> used by the owner
 $primaryKey=$(az eventgrid topic key list --name $topicname -g $RG --query "key1" --output tsv)
+
+# Query the key2 --> will be rotated --> can be shared to clients
+$sharedKey=$(az eventgrid topic key list --name $topicname -g $RG --query "key2" --output tsv)
 
 
 # Build The Message to be sent to Event Grid
