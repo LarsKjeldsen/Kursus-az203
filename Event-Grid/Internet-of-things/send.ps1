@@ -29,5 +29,7 @@ $htbody = @{
 # Convert from object to JSON
 $body = "["+(ConvertTo-Json $htbody)+"]"
 
+
+# https://docs.microsoft.com/en-us/azure/event-grid/security-authentication#custom-topic-publishing
 # USE HTTP POST with a valid key and Body as JSON
 Invoke-WebRequest -Uri $WebHookAddress -Method POST -Body $body -Headers @{"aeg-sas-key" = $key}
