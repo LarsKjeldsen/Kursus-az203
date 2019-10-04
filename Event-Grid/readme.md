@@ -1,8 +1,8 @@
 ## Event-Grid vs Service Bus
 
-Event Grid is really about eventing (when an event happen), not enterprise messaging like ServiceBus 
-Service Bus is better for financial transactions and workflows --> to handle messaging
-Event Grid is for reactive programming in the cloud --> to handle events and trigger WebHooks
+Event Grid is really about eventing (when an event happen).
+
+Event Grid is for reactive programming in the cloud to handle events and trigger WebHooks
 
 ```
 
