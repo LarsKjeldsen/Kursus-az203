@@ -73,7 +73,7 @@ $webhook="https://$sitename.azurewebsites.net/api/updates"
 az eventgrid event-subscription create `
   -g $RG `
   --topic-name $topicname `
-  --name demoViewerSub `
+  --name webappMonitor `
   --endpoint $webhook
 
 
