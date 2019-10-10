@@ -22,9 +22,9 @@ $queuename="kursusqueue"
 az storage account create -n $storagename -g $RG -l $location --sku Standard_LRS
 az storage queue create --name $queuename --account-name $storagename
 
-storageid=$(az storage account show --name $storagename --resource-group $RG --query id --output tsv)
-queueid="$storageid/queueservices/default/queues/$queuename"
-topicid=$(az eventgrid topic show --name $topicname -g $RG --query id --output tsv)
+$storageid=$(az storage account show --name $storagename --resource-group $RG --query id --output tsv)
+$queueid="$storageid/queueservices/default/queues/$queuename"
+$topicid=$(az eventgrid topic show --name $topicname -g $RG --query id --output tsv)
 
 az eventgrid event-subscription create `
   --source-resource-id $topicid `
