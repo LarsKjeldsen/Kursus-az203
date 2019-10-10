@@ -4,20 +4,38 @@
 
 
 $RG="az-203"
+$location="westeurope"
 
-az group create --name $RG --location westeurope
+az group create --name $RG --location $location
 
 ## Enable Event Grid resource provider
 az provider register --namespace Microsoft.EventGrid
-
 az provider show --namespace Microsoft.EventGrid --query "registrationState"
 
 $topicname="superusers-kursus"
-
 az eventgrid topic create --name $topicname -l westeurope -g $RG
 
+# Storage Account to save the state and data 
+$storagename="superusers2019"
+$queuename="eventqueue"
 
-## Create a message endpoint
+az storage account create -n $storagename -g $RG -l $location --sku Standard_LRS
+az storage queue create --name $queuename --account-name $storagename
+
+storageid=$(az storage account show --name $storagename --resource-group $RG --query id --output tsv)
+queueid="$storageid/queueservices/default/queues/$queuename"
+topicid=$(az eventgrid topic show --name $topicname -g $RG --query id --output tsv)
+
+az eventgrid event-subscription create `
+  --source-resource-id $topicid `
+  --name "$topicname-queue" `
+  --endpoint-type storagequeue `
+  --endpoint $queueid `
+  --expiration-date "2020-01-01"
+
+
+
+## Monitor
 
 $sitename="superusers-kursus-demo-event-grid-2019"
 
