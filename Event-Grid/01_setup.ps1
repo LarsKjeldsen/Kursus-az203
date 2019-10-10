@@ -58,22 +58,12 @@ az group deployment create `
   --parameters siteName=$sitename hostingPlanName=viewerhost
 
 
-
-
-
-
-
-
-#########################################################################
-#  Subscribe to my custom topic
-#########################################################################
-
 $webhook="https://$sitename.azurewebsites.net/api/updates"
 
 az eventgrid event-subscription create `
   -g $RG `
   --topic-name $topicname `
-  --name webappMonitor `
+  --name realtimeMonitor `
   --endpoint $webhook
 
 
