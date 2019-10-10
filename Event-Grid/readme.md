@@ -33,7 +33,13 @@ and take advantage of its reliable delivery, advanced routing,
 and direct integration with Azure and use it in an Azure Function that is created with Webhook Trigger.
 
 
-## Where is My Smart IoT Cat Now?
+![](event-grid-HR.jpg)
+
+<br>
+<br>
+
+
+## Real-Time GPS LIVE Tracking?
 
 ![https://tractive.com/](catty.jpg)
 
