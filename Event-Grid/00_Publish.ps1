@@ -13,11 +13,11 @@ az provider register --namespace Microsoft.EventGrid
 az provider show --namespace Microsoft.EventGrid --query "registrationState"
 
 $topicname="superusers-kursus"
-az eventgrid topic create --name $topicname -l westeurope -g $RG
+az eventgrid topic create --name $topicname -l $location -g $RG
 
 # Storage Account to save the state and data 
 $storagename="superusers2019"
-$queuename="eventqueue"
+$queuename="kursusqueue"
 
 az storage account create -n $storagename -g $RG -l $location --sku Standard_LRS
 az storage queue create --name $queuename --account-name $storagename
