@@ -1,4 +1,4 @@
-## Event-Grid vs Service Bus
+## Event-Grid (FaaS)
 
 Event Grid is really about eventing (when an event happen).
 
