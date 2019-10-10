@@ -25,7 +25,7 @@ az eventgrid topic create --name $topicname -l $location -g $RG
 # Storage Account to save the state and data 
 #########################################################################
 $storagename="superusers2019"
-$queuename="kursusqueue"
+$queuename="kursus-queue"
 
 az storage account create -n $storagename -g $RG -l $location --sku Standard_LRS
 az storage queue create --name $queuename --account-name $storagename
