@@ -7,7 +7,7 @@ $RG="az-203"
 $location="westeurope"
 
 
-#az group delete --name $RG --yes --no-wait
+az group delete --name $RG --yes 
 az group create --name $RG --location $location
 
 ## Enable Event Grid resource provider
