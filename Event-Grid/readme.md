@@ -33,7 +33,7 @@ and take advantage of its reliable delivery, advanced routing,
 and direct integration with Azure and use it in an Azure Function that is created with Webhook Trigger.
 
 
-## Where is My Smart IoT Cat?
+## Where is My Smart IoT Cat Now?
 
 ![https://tractive.com/](catty.jpg)
 
