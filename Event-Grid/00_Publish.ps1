@@ -1,6 +1,6 @@
-<#
-    Azure Event Grid custom events
-#>
+#########################################################################
+# Event-Grid (FaaS) Setup and Registrations
+#########################################################################
 
 
 $RG="az-203"
@@ -15,7 +15,13 @@ az provider show --namespace Microsoft.EventGrid --query "registrationState"
 $topicname="superusers-kursus"
 az eventgrid topic create --name $topicname -l $location -g $RG
 
+
+
+
+
+#########################################################################
 # Storage Account to save the state and data 
+#########################################################################
 $storagename="superusers2019"
 $queuename="kursusqueue"
 
@@ -35,7 +41,12 @@ az eventgrid event-subscription create `
 
 
 
-## Monitor
+
+
+
+#########################################################################
+#  WebApp Monitor and logging
+#########################################################################
 
 $sitename="superusers-kursus-demo-event-grid-2019"
 
@@ -46,6 +57,22 @@ az group deployment create `
 
 
 
+
+
+
+
+
+#########################################################################
+#  Subscribe to my custom topic
+#########################################################################
+
+$webhook="https://$sitename.azurewebsites.net/api/updates"
+
+az eventgrid event-subscription create `
+  -g $RG `
+  --topic-name $topicname `
+  --name demoViewerSub `
+  --endpoint $webhook
 
 
 
