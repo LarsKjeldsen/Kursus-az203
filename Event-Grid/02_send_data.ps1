@@ -1,8 +1,11 @@
 ## Send an event to your Event Grid Topic
 
 param(
-  $message = "der-er-sket-noget",
-  $subject = "superusers/kursus/hver-gang-der-sker-noget-et-eller-andet-sted-kan-vi-fange-det" 
+  $eventType = "kursus",
+  $subject = "superusers/kursus/update",
+  $x = "xxx",
+  $y = "yyy",
+  $z = "zzz" 
 )
 
 # Resource Group Name
@@ -25,13 +28,13 @@ $eventID = Get-Random 99999
 $eventDate = Get-Date -Format s
 $htbody = @{
     id=$eventID
-    eventType=$message
+    eventType=$eventType
     subject=$subject    
     eventTime=$eventDate   
     data= @{
-        x="xxxx"
-        y="yyyy"
-        z="zzzz"
+        x=$x
+        y=$y
+        z=$z
     }
     dataVersion="1.0"
 }
