@@ -41,7 +41,9 @@ and direct integration with Azure and use it in an Azure Function that is create
 
 ## Real-Time GPS LIVE Tracking?
 
-![https://tractive.com/](catty.jpg)
+- https://tractive.com/
+
+![](catty.jpg)
 
 
 
