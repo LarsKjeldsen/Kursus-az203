@@ -8,10 +8,16 @@ param(
   $z = "zzz" 
 )
 
-$WebHookAddress = "https://superusers-kursus.westeurope-1.eventgrid.azure.net/api/events"
+# $url    = "https://superusers-kursus.westeurope-1.eventgrid.azure.net/api/events"
+# $url    = get-azure-secret event-grid-url
+# $secret = get-azure-secret event-grid-key
 
-# [Environment]::SetEnvironmentVariable("event-grid-key", "XXXXXXXXXXXXXXXXXX", 'User')
-$key =  [Environment]::GetEnvironmentVariable("event-grid-key", 'User')
+# [Environment]::SetEnvironmentVariable("event-grid-url", $url  , 'User')
+# [Environment]::SetEnvironmentVariable("event-grid-key", $secret, 'User')
+
+
+$WebHookAddress = [Environment]::GetEnvironmentVariable("event-grid-url", 'User')
+$key =            [Environment]::GetEnvironmentVariable("event-grid-key", 'User')
 
 
 # Build The Message to be sent to Event Grid
