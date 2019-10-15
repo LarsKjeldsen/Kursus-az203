@@ -1,14 +1,18 @@
 ## Send an event to a WebHook
 
 param(
-  $WebHookAddress = "https://superusers-kursus.westeurope-1.eventgrid.azure.net/api/events",
-  $key = "secret",
   $message = "besked",
   $subject = "titel",
   $x = "xxx",
   $y = "yyy",
   $z = "zzz" 
 )
+
+$WebHookAddress = "https://superusers-kursus.westeurope-1.eventgrid.azure.net/api/events"
+
+# [Environment]::SetEnvironmentVariable("event-grid-key", "XXXXXXXXXXXXXXXXXX", 'User')
+$key =  [Environment]::GetEnvironmentVariable("event-grid-key", 'User')
+
 
 # Build The Message to be sent to Event Grid
 $eventID = Get-Random 99999
@@ -29,11 +33,10 @@ $htbody = @{
 # Convert from object to JSON
 $body = "["+(ConvertTo-Json $htbody)+"]"
 
+Invoke-WebRequest -Uri $WebHookAddress -Method POST -Body $body -Headers @{"aeg-sas-key" = $key}
 
-# https://docs.microsoft.com/en-us/azure/event-grid/security-authentication#custom-topic-publishing
+
 # USE HTTP POST with a valid key and Body as JSON
-# Invoke-WebRequest -Uri $WebHookAddress -Method POST -Body $body -Headers @{"aeg-sas-key" = $key}
-
-http post $WebHookAddress --headers "aeg-sas-key:$key" $body
+# http post $WebHookAddress --headers "aeg-sas-key:$key" $body
 
 
