@@ -10,5 +10,4 @@ function create-vm-linux{
 }
 
 ## get secret from Azure key-vault 
-$secret = get-azure-secret sysadmin
-create-vm-linux  -secret $secret
+create-vm-linux  -secret (get-azure-secret sysadmin)
