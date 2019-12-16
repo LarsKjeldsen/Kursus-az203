@@ -28,8 +28,5 @@ az vm list --resource-group  Default-Web-NorthEurope
 ## Cleanup Resources 
 
 ```
-az group delete --name AzureDevSpace --yes --no-wait
-
-az group delete --name MC_AzureDevSpace_MyAKS_westeurope --yes --no-wait
-
+az group delete --name az203 --yes --no-wait
 ```
