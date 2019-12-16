@@ -42,7 +42,4 @@ $body = "["+(ConvertTo-Json $htbody)+"]"
 Invoke-WebRequest -Uri $WebHookAddress -Method POST -Body $body -Headers @{"aeg-sas-key" = $key}
 
 
-# USE HTTP POST with a valid key and Body as JSON
-# http post $WebHookAddress --headers "aeg-sas-key:$key" $body
-
 
