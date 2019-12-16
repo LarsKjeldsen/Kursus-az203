@@ -1,0 +1,15 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2-alpine AS build
+WORKDIR /app
+
+COPY *.csproj ./
+RUN dotnet restore
+
+COPY . ./
+RUN dotnet publish --configuration Release --output out
+
+FROM mcr.microsoft.com/dotnet/core/runtime:2.2-alpine
+WORKDIR /app
+
+COPY --from=build /app/out .
+
+ENTRYPOINT ["dotnet", "ipcheck.dll"]
