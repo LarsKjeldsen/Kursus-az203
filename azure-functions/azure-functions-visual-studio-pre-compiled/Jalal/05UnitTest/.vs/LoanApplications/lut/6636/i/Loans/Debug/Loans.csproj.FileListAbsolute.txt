@@ -1,6 +1,0 @@
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\Loans\bin\Debug\Loans.dll
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\Loans\bin\Debug\Loans.pdb
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\Loans\Debug\Loans.csprojResolveAssemblyReference.cache
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\Loans\Debug\Loans.csproj.CoreCompileInputs.cache
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\Loans\Debug\Loans.dll
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\Loans\Debug\Loans.pdb

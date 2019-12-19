@@ -1,7 +1,0 @@
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.exe.config
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.exe
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\ServiceBusQueueSender\bin\Debug\ServiceBusQueueSender.pdb
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\ServiceBusQueueSender\Debug\ServiceBusQueueSender.csprojResolveAssemblyReference.cache
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\ServiceBusQueueSender\Debug\ServiceBusQueueSender.csproj.CoreCompileInputs.cache
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\ServiceBusQueueSender\Debug\ServiceBusQueueSender.exe
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\ServiceBusQueueSender\Debug\ServiceBusQueueSender.pdb

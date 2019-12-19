@@ -1,7 +1,0 @@
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\EventHubSender\bin\Debug\EventHubSender.exe.config
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\EventHubSender\bin\Debug\EventHubSender.exe
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\b\EventHubSender\bin\Debug\EventHubSender.pdb
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\EventHubSender\Debug\EventHubSender.csprojResolveAssemblyReference.cache
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\EventHubSender\Debug\EventHubSender.csproj.CoreCompileInputs.cache
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\EventHubSender\Debug\EventHubSender.exe
-F:\DEV\20532\azure-functions\azure-functions-visual-studio\Jalal\05UnitTest\.vs\LoanApplications\lut\0\i\EventHubSender\Debug\EventHubSender.pdb
