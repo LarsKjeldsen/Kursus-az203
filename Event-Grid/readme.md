@@ -39,11 +39,4 @@ and direct integration with Azure and use it in an Azure Function that is create
 <br>
 
 
-## Real-Time GPS LIVE Tracking?
-
-- https://tractive.com/
-
-![](catty.jpg)
-
-
-
+## [building-reactive-solution-with-azure-event-grid](https://www.serverless360.com/blog/building-reactive-solution-with-azure-event-grid)
