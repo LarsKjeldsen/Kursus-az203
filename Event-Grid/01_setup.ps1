@@ -38,11 +38,7 @@ az eventgrid event-subscription create `
   --source-resource-id $topicid `
   --name "$topicname-queue" `
   --endpoint-type storagequeue `
-  --endpoint $queueid `
-  --expiration-date "2020-01-01"
-
-
-
+  --endpoint $queueid 
 
 
 
