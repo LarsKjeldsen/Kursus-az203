@@ -3,6 +3,8 @@
     - Setup AzureSQL Server, Database and Firewall
     - Configure AppService with connectionString
     - Migrate Azure Database from Entity Framework model
+
+    run "az login" before anything
 #>
 
 $resourceGroup  = "kursus-az203"
@@ -18,26 +20,21 @@ az appservice plan create -n $planName -g $resourceGroup --sku B1
 
 # create the webapp
 az webapp create -n $appName -g $resourceGroup --plan $planName
-
-
-# discover the URI
-$site = $( az webapp show -n $appName -g $resourceGroup --query "defaultHostName" -o tsv)
-#start-process ("https://$site")
-
-
-# Configure git deployment
 $gitrepo="https://superusers-kursus@dev.azure.com/superusers-kursus/Webapp-snippets/_git/Webapp-snippets"
-
-
-# configure the app to deploy from $gitrepo
 az webapp deployment source config -n $appName -g $resourceGroup --repo-url $gitrepo --branch master --manual-integration
 
 
-# (optional) sync with repo latest code change
+# (optional) sync WebApp from source/git latest commit
 # az webapp deployment source sync -n $appName -g $resourceGroup
 
 
-# create a SQL server and database
+<#############################################################################################
+ProTip: Use Azure key-vault to get secrets for SQLSERVER and Build ConnectionString
+    
+sourcecode for get-azure-secret: 
+https://dev.azure.com/superusers-kursus/_git/windowspowershell?path=%2Fazure%2Fsecrets.ps1
+###############################################################################################>
+
 $sqlServerName=         get-azure-secret -secretName kursus-sqlserver-servername
 $databaseName =         get-azure-secret -secretName kursus-sqlserver-databasename
 $sqlServerUsername =    get-azure-secret -secretName kursus-sqlserver-loginname
@@ -66,4 +63,5 @@ az webapp config connection-string set -n $appName -g $resourceGroup -t SQLAzure
 
 # To migrate/setup the database model to SQLServer
 # pip install httpie
+$site = $( az webapp show -n $appName -g $resourceGroup --query "defaultHostName" -o tsv)
 http get "https://$site/migrate"
