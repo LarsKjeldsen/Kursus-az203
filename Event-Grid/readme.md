@@ -39,4 +39,16 @@ and direct integration with Azure and use it in an Azure Function that is create
 <br>
 
 
+
+## DevOps
+We can also integrate many details about our Azure services through Event Grid. 
+For example when resources are being created or modified. This allows our DevOps team to automate their work, for example by calling a workbook whenever a virtual machine is created, 
+automatically adding it to a virtual network and set up security.
+
+
+
+
 ## [building-reactive-solution-with-azure-event-grid](https://www.serverless360.com/blog/building-reactive-solution-with-azure-event-grid)
+
+
+
