@@ -65,3 +65,9 @@ https://www.superusers.dk/kursus/su0160/
 - [Tips and Tricks on youtube](https://www.youtube.com/playlist?list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC)
 
 <br>
+
+
+### [DEMO] WebAPI_InMemory Dev and Deploy 
+
+- [How to Develop and Deploy dotnet.core WebAPI_InMemory to Azure git repository](https://dev.azure.com/superusers-kursus/az203/_git/WebAPI_InMemory?path=%2Freadme.md&_a=preview)
+
