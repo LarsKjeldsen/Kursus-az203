@@ -12,12 +12,9 @@
 * https://microsoftlearning.github.io/AZ-203-DevelopingSolutionsforMicrosoftAzure/
 
 
-#### git clone repo
+#### New Version Available at 2020-03-02 
 
-```
-git clone https://superusers-kursus@dev.azure.com/superusers-kursus/az203/_git/az203
-
-```
+- [AZ-204](https://www.microsoft.com/en-us/learning/course.aspx?cid=AZ-204T00)
 
 
 
