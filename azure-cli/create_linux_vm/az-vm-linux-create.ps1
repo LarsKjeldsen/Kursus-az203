@@ -5,7 +5,7 @@ function create-vm-linux{
         $VMName="dev2020",
         $secret
     )
-    az group create --location westus --name $rgName
+    az group create --location westeurope --name $rgName
     az vm create --resource-group $rgName --name $VMName --image Debian --admin-username sysadmin --admin-password $secret --tags "env=training"
 }
 
